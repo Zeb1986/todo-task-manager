@@ -11,19 +11,19 @@ export const FilterTodo = () => {
   return (
     <div className="btn-group">
       <button 
-      className="btn btn-outline-primary"
+      className="btn btn-info"
         style={{
           backgroundColor: activeFilter === 'all' ? 'lightgray' : 'transparent',
         }}
         onClick={() => handleFilter('all')}>all</button>
       <button 
-      className="btn btn-outline-primary"
+      className="btn btn-info"
         style={{
           backgroundColor: activeFilter === 'active' ? 'lightgray' : 'transparent',
         }}
         onClick={() => handleFilter('active')}>active</button>
       <button 
-      className="btn btn-outline-primary"
+      className="btn btn-info"
         style={{
           backgroundColor: activeFilter === 'completed' ? 'lightgray' : 'transparent',
         }}
