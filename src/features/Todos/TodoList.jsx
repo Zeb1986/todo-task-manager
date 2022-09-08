@@ -53,7 +53,7 @@ export const TodoList = () => {
             >{`Task description: ${todo.description}`}</span>}
           <span
             className="list-group-item-span"
-            >Task created: {todo.date} 
+            >Task created: {todo.date}&nbsp; 
             {todo.completed? `Task completed: ${todo.completedTime}`: todo.edited?`Task edited: ${todo.edited}`: null }
           </span>
           <button 
